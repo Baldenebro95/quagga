@@ -72,7 +72,7 @@ function initInputStream(cb) {
 
 function getViewPort() {
     var target = _config.inputStream.target;
-    // Check if target is already a DOM element
+    // Check if target is already a DOM element.. testV0.0.1
     if (target && target.nodeName && target.nodeType === 1) {
         return target;
     } else {
